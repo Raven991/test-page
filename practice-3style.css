@@ -1,0 +1,203 @@
+    @import url('https//fonts.googleapis.com/css?family=lato:400,700');
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        font-family: 'lato', sans-serif;
+        color: #282a2b;
+    }
+    
+    #home {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .navbar {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .9rem;
+        letter-spacing: .1rem;
+        background: rgba(0, 0, 0, .6)!important;
+        padding-right: 3.1rem;
+    }
+    
+    .navbar-brand img {
+        height: 3.5rem;
+    }
+    
+    .navbar-nav li {
+        padding-right: .7rem;
+    }
+    
+    .navbar-dark,
+    .navbar-nav,
+    .nav-link {
+        color: white;
+        padding-top: .5rem;
+    }
+    
+    .navbar-dark,
+    .navbar-nav,
+    .nav-link.active,
+    .navbar-dark,
+    .navbar-nav,
+    .nav-link:hover {
+        color: #1ebba3!important;
+    }
+    
+ .landing {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg");
+        background-repeat: no-repeat;
+        background-size: cover, cover;
+    }
+    
+    .caption {
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 38%;
+        z-index: 1;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .caption h1 {
+        font-size: 3.8rem;
+        font-weight: 700;
+        text-shadow: 1px 1px 2px black;
+        letter-spacing: .3rem;
+        padding-bottom: 1rem;
+    }
+    
+    .caption h3 {
+        font-size: 2.5rem;
+        text-shadow: 1px 1px 1px black;
+        padding-bottom: 1.6rem;
+    }
+    
+    .btn-lg {
+        border-width: medium;
+        border-radius: 0;
+        padding: .6rem 1.3rem;
+        font-size: 1.1rem;
+    }
+    
+    .narrow {
+        padding: 3.6rem 3.5rem;
+    }
+    
+    .narrow h1 {
+        padding: 2rem 1.6rem;
+        font-size: 2.5rem;
+    }
+    
+    .narrow h3 {
+        padding-bottom: 2rem;
+    }
+    
+    .dark,
+    .h3 {
+        padding-top: 4.3rem;
+    }
+    
+    .fa-play-circle,
+    .fa-slideshare,
+    .fa-wpforms {
+        font-size: 3.5rem;
+        color: #1ebba3;
+        margin: 1.5rem;
+    }
+    
+    .h3,
+    .light {
+        padding-bottom: 1.3em;
+        width: 10%;
+        font-size: 1rem;
+        color: #1ebba3!important;
+        padding-bottom: 2.6rem;
+    }
+    
+    hr {
+        border-top: 2px solid #1ebba3;
+    }
+    
+    .fixed-background {
+        background-image: linear-gradient(rgba(59, 102, 243, 0.4), rgba(59, 102, 243, 0.4)), url("https://image.freepik.com/free-photo/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        background-attachment: fixed;
+    }
+    
+    .fa-code {
+        color: #e54d26;
+    }
+    
+    .fa-bold {
+        color: #1ebba3;
+    }
+    
+    .fa-css3 {
+        color: #d773eb;
+    }
+    
+    .fa-code,
+    .fa-bold,
+    .fa-css3 {
+        font-size: 3.5em;
+        margin: 1rem;
+    }
+    
+    .narrow h3 {
+        padding-bottom: 3rem;
+    }
+    
+    .heading h3 {
+        padding-bottom: 3rem;
+    }
+    
+    .avatar {
+        vertical-align: auto;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+    }
+    
+    .data h6 p {
+        margin-top: 1.2rem;
+    }
+
+    
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+footer img {
+    height: 3.5rem;
+
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr .light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
